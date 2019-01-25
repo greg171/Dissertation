@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    font-weight:900;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h2{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+pre{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+}
+
+.centered{
+    text-align: center;
+}
+
+#buttons{
+    text-align: center;
+}
+
+button{
+    width: 400px;
+    height: 40px;
+    background-color: #000;
+    color: azure;
+    font-size: 25px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    align-content: center;
+}
+
+p{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+.row{
+    text-align: center;
+}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 32.2%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background-color: white;
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    width: 100%;
+
+    background-color: #000;
+    color: azure;
+    font-size: 25px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    align-content: center;
+
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.modulecontent{
+    text-align: center;
+}

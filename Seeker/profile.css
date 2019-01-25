@@ -1,0 +1,27 @@
+
+#frame {float:right;  width:50%; position:relative;}
+button{
+    width: 400px;
+    height: 40px;
+    background-color: #000;
+    color: azure;
+    font-size: 25px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    align-content: center;
+}
+
+#button {
+    width: 100%;
+
+    background-color: #000;
+    color: azure;
+    font-size: 25px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    align-content: center;
+
+}
+.floating-box {
+    float: left;
+    width: 165px;
+    height: 75px;
+}

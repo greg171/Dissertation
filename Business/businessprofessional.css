@@ -1,0 +1,17 @@
+
+h2{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.edHis{
+    float: left;
+    width: 40%;
+}
+.hobby{
+    float: left;
+    width: 10%;
+}
+.personal{
+    float: left;
+    width: 50%;
+}

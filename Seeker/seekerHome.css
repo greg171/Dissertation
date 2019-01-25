@@ -1,0 +1,46 @@
+p{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+span {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 15px;
+}
+
+.rows{
+    margin: 0 auto;
+    text-align: center;
+}
+/* Three columns side by side */
+.columns {
+    margin: 0 auto;
+    width: 32.2%;
+    margin-bottom: 20px;
+    padding: 0 12px;
+    background-color: white;
+}
+
+/* Add some shadows to create a card effect */
+.cards {
+    margin: 0 auto;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.containers {
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.containers::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.floating-box {
+    float: left;
+    width: 155px;
+    height: 75px;
+}
